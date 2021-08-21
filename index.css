@@ -1,0 +1,98 @@
+header{
+text-align: center;
+color: blue ;
+background-color: chocolate;}
+
+header {
+text-align: center;
+background: url('images/portland.jpg') no-repeat top center ;
+background-size: cover;
+overflow: hidden;
+padding-top: 60px;  }
+
+header {
+line-height: 1.5;  }
+
+header .profile-image {
+margin-top: 50px;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border: 3px solid white;
+transition: all .5s; }
+
+header .profile-image:hover {
+transform: scale(1.2) rotate(45deg); }
+
+.tag {
+background-color: #efefef;
+color: black;
+padding: 10px;
+border-radius: 5px;
+display: table;
+margin: 10px auto; } 
+
+.location {
+    background-color: #222;
+    color: white;
+}
+
+
+.main-nav {
+width: 100%;
+background: black;
+min-height: 30px
+padding: 10px;
+position: fixed;
+text-align: center; }
+
+a {
+text-decoration: none;
+color: #0499ff; }
+
+a:hover {
+color: #6633ff;  }
+
+.nav {
+display: flex;
+justify-content: space-around;
+font-weight: 700;
+list-style-type: none;
+margin: 0 auto;
+padding: 0; }
+ 
+.nav .name {
+display: flex; 
+color: white;}
+
+.nav li {
+padding: 5px 10px 10px 10px; }
+
+.nav a {
+transition: all .5s; }
+
+.nav a:hover {
+color: white }
+  
+#introduction {
+border: 5;
+color: black;
+text-align: center;
+padding: 10px;
+border-style: groove;
+border-radius: 10px;
+border-color: cadetblue;  }
+
+img {
+border-radius: 50%;
+border-image: round;
+ }
+
+body {
+margin: 0;
+padding: 0;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+color: #222;
+background: #f7f5f0;   }
+   
